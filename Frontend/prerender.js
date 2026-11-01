@@ -58,3 +58,4 @@ generateSSG().catch((err) => {
   console.error('SSG generation failed:', err);
   process.exit(1);
 });
+

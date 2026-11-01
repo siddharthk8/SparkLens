@@ -13,3 +13,4 @@ export function render(url = '/') {
 }
 
 export default render;
+
