@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist/server && node prerender.js",
+    "build:client": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
@@ -15,6 +16,7 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-hook-form": "^7.91.0",
+    "react-router": "^7.18.5",
     "react-router-dom": "^7.18.5",
     "react-scroll": "^1.9.3",
     "tailwindcss": "^4.3.3"
