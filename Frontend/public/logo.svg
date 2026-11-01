@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" fill="none">
+  <defs>
+    <linearGradient id="shieldSparkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="shieldRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <linearGradient id="lensShineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Mark (Transparent Shield + Lens + </> Code Tag) -->
+  <g transform="translate(6, 6) scale(0.58)">
+    <path d="M50 8 L84 22 C84 54 68 78 50 92 C32 78 16 54 16 22 Z" 
+          stroke="url(#shieldRingGrad)" 
+          stroke-width="4.5" 
+          stroke-linejoin="round" 
+          stroke-linecap="round"
+          fill="none" 
+          opacity="0.9" />
+
+    <circle cx="50" cy="46" r="23" 
+            stroke="url(#shieldSparkGrad)" 
+            stroke-width="3.5" 
+            stroke-opacity="0.9" 
+            fill="none" />
+
+    <path d="M34 40 A23 23 0 0 1 66 40" 
+          stroke="url(#lensShineGrad)" 
+          stroke-width="3" 
+          stroke-linecap="round" />
+
+    <line x1="50" y1="18" x2="50" y2="24" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" />
+    <line x1="50" y1="68" x2="50" y2="74" stroke="#10b981" stroke-width="3" stroke-linecap="round" />
+    <line x1="22" y1="46" x2="28" y2="46" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" />
+    <line x1="72" y1="46" x2="78" y2="46" stroke="#10b981" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Code Brackets </> -->
+    <path d="M43 38 L36 46 L43 54" stroke="url(#shieldSparkGrad)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="52.5" y1="35" x2="47.5" y2="57" stroke="#22d3ee" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M57 38 L64 46 L57 54" stroke="url(#shieldSparkGrad)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography: SPARK LENS -->
+  <g transform="translate(74, 43)">
+    <text font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-weight="900" 
+          font-size="28" 
+          letter-spacing="-0.04em">
+      <tspan fill="#ffffff">SPARK</tspan>
+      <tspan fill="url(#textGrad)">LENS</tspan>
+    </text>
+  </g>
+</svg>
