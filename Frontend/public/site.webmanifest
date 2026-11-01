@@ -1,7 +1,7 @@
 {
-  "name": "SparkLens — Autonomous Repository Intelligence Platform",
+  "name": "SparkLens — Smart Repository Intelligence & Cleanroom Verification",
   "short_name": "SparkLens",
-  "description": "Proof-First DevSecOps: Eliminates 82.6% false positives via air-gapped Docker cleanroom verification.",
+  "description": "Stop wasting time on fake bugs. Prove real exploits in safe air-gapped cleanrooms, maintain code quality, and merge 1-click regression-tested PRs.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#07090e",
@@ -44,4 +44,3 @@
   ],
   "categories": ["security", "developer", "productivity"]
 }
-
